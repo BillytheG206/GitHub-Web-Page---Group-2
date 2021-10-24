@@ -1,14 +1,14 @@
 html {
     width: 100%;
     background-color: #000;
-    background-image: url("../images/forest.webp");
+    background-size: 100%;
 }
 
 body {
     width: 80%;
     background-color: #fff;
-    height: 500px;
-    margin: 0 auto;
+    height: auto;
+    margin: auto;
 }
 
 header {
@@ -24,10 +24,29 @@ header h1 {
 }
 
 h2 {
-    padding-left: .5em;
+    padding-left: 8em;
+    border: 5px  #1C6EA4;
+    border-bottom: em;
 }
 
 p {
     padding-left: .75em;
     padding-right: .75em;
 }
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  img {
+      width: 20%;
+  }
