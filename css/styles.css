@@ -6,7 +6,7 @@ html {
 
 body {
   width: 80%;
-  background-color: rgb(95, 84, 77);
+  background-color: rgba(241, 122, 122, 0.637);
   height: 100%;
   margin: auto;
   padding-top: .01%;
@@ -65,11 +65,9 @@ section {
 }
 
 .left {
-  padding-left: 3em;
+  padding-left: em;
   padding-bottom:px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-
 }
 
 .container {
