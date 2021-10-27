@@ -150,11 +150,12 @@ section img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.container {
+.container2 {
   padding: 0 0px;
+  text-align: center;
 }
 
-.container::after, .row::after {
+.container2::after, .row::after {
   content: "";
   clear: both;
   display: table;
