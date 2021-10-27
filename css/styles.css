@@ -1,6 +1,6 @@
 html {
   width: 100%;
-  background-image: url(/images/backgroundimage.jpg);
+  background-image: url("/images/backgroundimage.jpg");
   background-size:contain;
 }
 
@@ -41,13 +41,13 @@ h2 {
   font-size: 25px;
 }
   
-
-
-section {
+section img {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 3em;
-  padding-left: 21em;
-}
 
+}
 .p1 h3 {
   text-align: center;
   margin-top: 50px;
@@ -64,11 +64,6 @@ section {
   max-width:1000px
 }
 
-.left {
-  padding-left: em;
-  padding-bottom:px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
 
 .container {
   position: relative;
@@ -95,8 +90,8 @@ section {
   font-size: 22px;
   max-width:666px
 }
-img {
-  width: 20%;
+.container img {
+  width: 43%;
 
 }
 
