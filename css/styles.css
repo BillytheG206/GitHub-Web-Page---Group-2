@@ -34,6 +34,12 @@ h2 {
   font-family: 'Orbitron';
   font-size: 25px;
 
+  h3 {
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
+  
 }
 
 section {
