@@ -37,11 +37,14 @@ h2 {
 
 }
 
-section {
-  padding-top: 3em;
-  padding-left: 21em;
-}
 
+section img {
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3em;
+}
 .p1 h3 {
   text-align: center;
   margin-top: 50px;
@@ -67,7 +70,10 @@ section {
 .container {
   position: relative;
   text-align: center;
+}
 
+.container img {
+  width: 45%;
 }
 .centered {
   position: absolute;
@@ -88,10 +94,6 @@ section {
   font-family: 'Almarai';
   font-size: 22px;
   max-width:666px
-}
-img {
-  width: 20%;
-
 }
 
 .wrap-word {
