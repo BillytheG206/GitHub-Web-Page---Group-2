@@ -1,26 +1,27 @@
 html {
   width: 100%;
-  background-color: rgb(255, 255, 255);
-  background-size: 100%;
+  background-image: url(/images/backgroundimage.jpg);
+  background-size:contain;
 }
 
 body {
-  width: 90%;
-  background-color: rgb(194, 172, 172);
+  width: 80%;
+  background-color: rgb(95, 84, 77);
   height: 100%;
-  margin: 0 auto
+  margin: auto;
+  padding-top: .01%;
 }
 
 header {
+  padding-top: 2%;
   width: 100%;
   height: 200px;
-  background-image: url("/images/actual.header.jpg");
-  background-size: cover;
+  background-image: url("/images/actualheader.jpg");
+  background-size:cover ;
 }
 
 header h2 {
   border-top: 5em;
-  padding-top: 80px;
   text-align: center;
   color: rgb(223, 219, 219);
   font-size: 50px;
@@ -40,6 +41,7 @@ section {
   padding-top: 3em;
   padding-left: 21em;
 }
+
 .p1 h3 {
   text-align: center;
   margin-top: 50px;
@@ -69,27 +71,6 @@ section {
   text-align: center;
 
 }
-.top4 {
-  position: relative;
-  text-align: center;
-
-}
-.top3 {
-  position: relative;
-  text-align: center;
-
-}
-.top2 {
-  position: relative;
-  text-align: center;
-
-}
-.top1 {
-  position: relative;
-  text-align: center;
-
-}
-
 .centered {
   position: absolute;
   top: 50%;
@@ -102,42 +83,6 @@ section {
 }
 
 .container p {
-  margin: auto;
-  padding-bottom: 50px;
-  padding-left: 5em;
-  padding-right: 5em;
-  font-family: 'Almarai';
-  font-size: 22px;
-  max-width:666px
-}
-.top4 p {
-  margin: auto;
-  padding-bottom: 50px;
-  padding-left: 5em;
-  padding-right: 5em;
-  font-family: 'Almarai';
-  font-size: 22px;
-  max-width:666px
-}
-.top3 p {
-  margin: auto;
-  padding-bottom: 50px;
-  padding-left: 5em;
-  padding-right: 5em;
-  font-family: 'Almarai';
-  font-size: 22px;
-  max-width:666px
-}
-.top2 p {
-  margin: auto;
-  padding-bottom: 50px;
-  padding-left: 5em;
-  padding-right: 5em;
-  font-family: 'Almarai';
-  font-size: 22px;
-  max-width:666px
-}
-.top1 p {
   margin: auto;
   padding-bottom: 50px;
   padding-left: 5em;
