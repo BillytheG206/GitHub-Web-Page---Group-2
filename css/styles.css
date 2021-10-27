@@ -35,6 +35,12 @@ h2 {
   font-family: 'Orbitron';
   font-size: 25px;
 
+  h3 {
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
+  
 }
 
 section {
@@ -124,4 +130,38 @@ img {
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
+}
+
+.column {
+  float: left;
+  width: 24%;
+  margin-bottom: 12px;
+  padding: 0 6px;
+}
+
+@media screen and (max-width: 1000px) {
+  .column {
+    width: 48%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 0px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+  text-align: center;
+  font-size: 25px;
 }
