@@ -1,6 +1,6 @@
 html {
   width: 100%;
-  background-image: url(/images/backgroundimage.jpg);
+  background-image: url(../images/backgroundimage.jpg));
   background-size:contain;
 }
 
