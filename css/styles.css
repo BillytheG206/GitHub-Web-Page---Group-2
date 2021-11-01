@@ -146,8 +146,8 @@ section img {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-image: url(../images/backgroundimage.jpg);
+  background-size: contain;
 }
 
 .topnav a.active {
@@ -244,7 +244,7 @@ section img {
 }
 
 .title {
-  color: grey;
+  color: rgb(41, 41, 41);
   text-align: center;
   font-size: 25px;
 }
