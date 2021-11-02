@@ -273,3 +273,21 @@ width: 90%;
 margin: auto;
 padding:1%;
 }
+
+@media only screen and (min-width: 600px) {
+  html {
+    zoom: 75%;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  html {
+    zoom: 100%;        
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  html {
+    zoom: 100%;
+  }
+}
