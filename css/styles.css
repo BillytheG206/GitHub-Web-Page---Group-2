@@ -257,3 +257,19 @@ section img {
   text-align: center;
   font-size: 25px;
 }
+
+.resources p{
+  font-family:'Almarai';
+  max-width: 960px;
+  width: 90%;
+  margin: auto;
+  padding:1%;
+  text-align: right;
+}
+
+.resources h3 {
+max-width: 960px;
+width: 90%;
+margin: auto;
+padding:1%;
+}
