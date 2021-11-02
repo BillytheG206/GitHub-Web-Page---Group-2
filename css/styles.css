@@ -207,9 +207,18 @@ section img {
 }
 
 
+.cards_div {
+  height: 400px;
+}
 
+.spacer_link {
+  height: 100px;
+  text-align: center;
+}
 
-
+.spacer_link h4 {
+  display: inline-block;
+}
 
 
 
