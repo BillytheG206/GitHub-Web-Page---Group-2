@@ -40,9 +40,6 @@ h2 {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 25px;
 }
-  
-
-
 
 section img {
   width: 75%;
@@ -55,21 +52,6 @@ section img {
   text-align: center;
   margin-top: 50px;
   font-family: 'Bowlby One SC';
-}
-
-.vl {
-  border-left: 6px solid rgba(99, 96, 96, 0.37);
-  height: 475px;
-  position: absolute;
-  left: 22%;
-  top: 980px;
-}
-.v2 {
-  border-right: 6px solid rgba(99, 96, 96, 0.37);
-  height: 475px;
-  position: absolute;
-  right: 22%;
-  top: 980px;
 }
 
 .line hr {
@@ -219,9 +201,6 @@ section img {
 .spacer_link h4 {
   display: inline-block;
 }
-
-
-
 
 .column {
   float: left;
